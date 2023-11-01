@@ -21,7 +21,9 @@ class ItemAdapter(
 ...
 ...
 
-  override fun onBindViewHolder(holder: ItemViewHolder, position: Int, payloads: MutableList<Any>) {
+  override fun onBindViewHolder(holder: ItemViewHolder,
+                                position: Int,
+                                payloads: MutableList<Any>) {
     if (payloads.isEmpty()) {
       super.onBindViewHolder(holder, position, payloads)
     } else {
