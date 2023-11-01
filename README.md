@@ -6,7 +6,7 @@ Forked from [https://github.com/jshvarts/DiffUtilPayloadDemo](https://github.com
 The original blog post with an explanation is here [RecyclerView DiffUtil with Change Payload](https://www.valueof.io/blog/recyclerview-diffutil-change-payloads)
 ##
 
-How it works:
+How it works (tap to watch):
 
 [![Alt text](https://img.youtube.com/vi/K-YKBO_fbO4/0.jpg)](https://youtube.com/shorts/K-YKBO_fbO4)
 
