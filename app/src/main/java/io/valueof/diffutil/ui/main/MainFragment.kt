@@ -8,7 +8,6 @@ import androidx.lifecycle.lifecycleScope
 import com.zhuinden.fragmentviewbindingdelegatekt.viewBinding
 import io.valueof.diffutil.R
 import io.valueof.diffutil.databinding.MainFragmentBinding
-import kotlinx.coroutines.flow.collect
 import timber.log.Timber
 
 class MainFragment : Fragment(R.layout.main_fragment) {
