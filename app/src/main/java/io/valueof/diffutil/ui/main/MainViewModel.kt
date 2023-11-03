@@ -15,9 +15,11 @@ class MainViewModel : ViewModel() {
     _itemList.value = generateItemList()
   }
 
-  fun toggleFavoriteStatus(id: String, isFavorite: Boolean) {
+  fun toggleFavoriteStatus(item: Item) {
+    val isFavorite = !item.isFavorite
+
     _itemList.value = _itemList.value.map {
-      if (it.id == id) {
+      if (it.id == item.id) {
         it.copy(isFavorite = isFavorite)
       } else {
         it
