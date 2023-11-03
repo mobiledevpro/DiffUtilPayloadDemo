@@ -49,3 +49,6 @@ class ItemDiffCallback : DiffUtil.ItemCallback<Item>() {
 }
 
 ```
+##
+
+### Jetpack Compose version is available through the branch [jetpack-compose-list](https://github.com/mobiledevpro/DiffUtilPayloadDemo/tree/jetpack-compose-list)
