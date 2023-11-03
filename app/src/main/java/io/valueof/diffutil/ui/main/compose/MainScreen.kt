@@ -65,7 +65,10 @@ fun MainScreen(list: List<Item>, onFavouriteClicked: (Item) -> Unit) {
         ) {
 
             LazyColumn {
-                items(list) { item ->
+                items(
+                    items = list,
+                    key = { item -> item.id }
+                ) { item ->
                     ListItem(item = item, onFavoriteClicked = {
                         onFavouriteClicked(item)
                     })
