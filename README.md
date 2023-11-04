@@ -62,3 +62,19 @@ class ItemDiffCallback : DiffUtil.ItemCallback<Item>() {
 ### Jetpack Compose version is available through the branch [jetpack-compose-list](https://github.com/mobiledevpro/DiffUtilPayloadDemo/tree/jetpack-compose-list)
 
 [![Alt text](https://img.youtube.com/vi/_kznxaFi2Zo/0.jpg)](https://youtube.com/shorts/_kznxaFi2Zo)
+
+##
+
+Code:
+```kotlin
+      LazyColumn {
+                items(
+                    items = list,
+                    key = { item -> item.id }
+                ) { item ->
+                    ListItem(item = item, onFavoriteClicked = {
+                        onFavouriteClicked(item)
+                    })
+                }
+            }
+```
